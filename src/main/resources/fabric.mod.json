@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "better_resource_packs",
+  "version": "${version}",
+  "name": "Better Resource Packs",
+  "description": "Improve the way resource packs are handled!",
+  "authors": [
+    "Juknum"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Better-Resource-Packs",
+    "sources": "https://github.com/Better-Resource-Packs/Better-Resource-Packs"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/better_resource_packs/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.better_resource_packs.BetterResourcePacks"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
