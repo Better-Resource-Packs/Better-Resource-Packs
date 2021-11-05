@@ -1,0 +1,75 @@
+{
+	"ambientocclusion": false,
+	"texture_size": [64, 32],
+	"textures": {
+		"particle": "#layer_1"
+	},
+	"elements": [
+		{
+			"name": "extern",
+			"from": [0, 0, 0],
+			"to": [8, 8, 8],
+			"faces": {
+				"north": {"uv": [2, 4, 4, 8], "texture": "#layer_1"},
+				"east": {"uv": [0, 4, 2, 8], "texture": "#layer_1"},
+				"south": {"uv": [6, 4, 8, 8], "texture": "#layer_1"},
+				"west": {"uv": [4, 4, 6, 8], "texture": "#layer_1"},
+				"up": {"uv": [2, 0, 4, 4], "texture": "#layer_1"},
+				"down": {"uv": [4, 0, 6, 4], "texture": "#layer_1"}
+			}
+		},
+		{
+			"name": "inner",
+			"from": [0, 0, 8],
+			"to": [8, 8, 0],
+			"faces": {
+				"north": {"uv": [8, 4, 6, 8], "texture": "#layer_1"},
+				"east": {"uv": [2, 4, 0, 8], "texture": "#layer_1"},
+				"south": {"uv": [4, 4, 2, 8], "texture": "#layer_1"},
+				"west": {"uv": [6, 4, 4, 8], "texture": "#layer_1"},
+				"up": {"uv": [2, 4, 4, 0], "texture": "#layer_1"},
+				"down": {"uv": [4, 4, 6, 0], "texture": "#layer_1"}
+			}
+		},
+		{
+			"name": "extern",
+			"from": [0, 0, 0],
+			"to": [8, 8, 8],
+			"faces": {
+				"north": {"uv": [2, 4, 4, 8], "texture": "#layer_1_overlay"},
+				"east": {"uv": [0, 4, 2, 8], "texture": "#layer_1_overlay"},
+				"south": {"uv": [6, 4, 8, 8], "texture": "#layer_1_overlay"},
+				"west": {"uv": [4, 4, 6, 8], "texture": "#layer_1_overlay"},
+				"up": {"uv": [2, 0, 4, 4], "texture": "#layer_1_overlay"},
+				"down": {"uv": [4, 0, 6, 4], "texture": "#layer_1_overlay"}
+			}
+		},
+		{
+			"name": "inner",
+			"from": [0, 0, 8],
+			"to": [8, 8, 0],
+			"faces": {
+				"north": {"uv": [8, 4, 6, 8], "texture": "#layer_1_overlay"},
+				"east": {"uv": [2, 4, 0, 8], "texture": "#layer_1_overlay"},
+				"south": {"uv": [4, 4, 2, 8], "texture": "#layer_1_overlay"},
+				"west": {"uv": [6, 4, 4, 8], "texture": "#layer_1_overlay"},
+				"up": {"uv": [2, 4, 4, 0], "texture": "#layer_1_overlay"},
+				"down": {"uv": [4, 4, 6, 0], "texture": "#layer_1_overlay"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "main",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		},
+		{
+			"name": "overlay",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [2, 3]
+		}
+	]
+}

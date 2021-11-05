@@ -1,0 +1,7 @@
+{
+  "parent": "armor/template_chestplate",
+  "textures": {
+    "layer_1": "textures/models/armor/iron_layer_1",
+    "layer_1_overlay": "textures/models/armor/iron_layer_1"
+  }
+}
